@@ -79,6 +79,7 @@ def main():
   border = open_file('border.png')
   print_dimensions(image_one)
   print_dimensions(image_two)
+  composite_images(image_one, image_two, border)
 
 
 if __name__ == '__main__':
